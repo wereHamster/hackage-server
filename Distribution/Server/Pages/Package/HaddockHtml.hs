@@ -1,6 +1,7 @@
 -- stolen from Haddock's Util.hs and Doc.hs
 module Distribution.Server.Pages.Package.HaddockHtml where
 
+import Control.Applicative
 import Data.Maybe               (fromMaybe)
 import Text.XHtml.Strict        hiding (p)
 import Network.URI              (escapeURIString, isUnreserved)
