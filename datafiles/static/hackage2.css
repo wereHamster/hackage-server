@@ -1,0 +1,100 @@
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 0;
+
+  background: rgb(41,56,69);
+  color: #ddd;
+
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.page-header-caption, .page-header-caption[href]:link, .page-header-caption[href]:visited {
+  color: #ddd;
+  padding-left: 24px;
+
+  display: flex;
+  align-items: center;
+
+  white-space: nowrap;
+
+  transition: color .12s;
+  text-decoration: none;
+}
+.page-header-caption:hover, .page-header-caption[href]:link:hover, .page-header-caption[href]:visited:hover {
+  color: white;
+}
+
+.page-header-caption-logo {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.page-header-navigation {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.page-header-navigation-search {
+  display: flex;
+  align-items: center;
+}
+.page-header-navigation-search button {
+  display: block;
+  height: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  padding: 4px 12px;
+
+  color: rgba(0,0,0,.8);
+  background-color: rgb(214, 223, 230);
+  border-left: 1px solid rgb(174, 183, 190);
+
+  transition: all .24s;
+}
+.page-header-navigation-search button:hover {
+  color: rgba(0,0,0,1)
+}
+.page-header-navigation-search input {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: rgb(214, 223, 230);
+  transition: all .12s;
+  padding: 4px 7px;
+  height: 24px;
+  width: 140px;
+}
+.page-header-navigation-search input:hover, .page-header-navigation-search input:focus {
+  background-color: white;
+}
+.page-header-navigation-search input:hover + button, .page-header-navigation-search input:focus + button {
+  border-color: transparent;
+}
+
+
+.page-header-navigation a[href] {
+  color: white;
+}
+.page-header-navigation-item[href], .page-header-navigation-item[href]:link, .page-header-navigation-item[href]:visited {
+  color: #ddd;
+  padding-left: 24px;
+
+  transition: color .12s;
+  text-decoration: none;
+}
+.page-header-navigation-item[href]:hover {
+  color: white;
+}
+
+ #page-header {
+   background: rgb(41,56,69);
+   border-top: 5px solid rgb(78,98,114);
